@@ -1,6 +1,6 @@
 var rad11 = document.getElementById("rad11");
 var rad23 = document.getElementById("rad23");
-var rad31 = document.getElementById("rad31");
+var rad34 = document.getElementById("rad34");
 var bres = document.getElementById("buttonResult");
 var chb11 = document.getElementById("chb11");
 var chb12 = document.getElementById("chb12");
@@ -19,7 +19,7 @@ function chekRadio(){
    if (rad23.checked == true){
       radRes += 1;
    }
-   if (rad31.checked == true){
+   if (rad34.checked == true){
       radRes += 1;
    }
    return radRes;
