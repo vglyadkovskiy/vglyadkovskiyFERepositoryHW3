@@ -55,4 +55,5 @@ function clickResultButton(){
                alert("Your RESULT: You score: " + (Number(chekRadio()) + Number(chekChekBox())) + " points. " + "You have " + (Number(chekRadio()) + Number(chekChekBox()))/5*100 + " % correct answers.");
             }
 }
+
 clickResultButton();
