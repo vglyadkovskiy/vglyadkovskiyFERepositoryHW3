@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+     <title>Калькулятор</title>
+     <meta charset="utf-8" />
+     <link rel="stylesheet" href="css/style.css" />
+     
+   </head>
+   <body>
+      <header>
+         <a href="index.html"><img src="img/webLogo.png" alt="Web-технологии" id="logo" /></a>
+         <h1>Основы Web-технологий</h1>
+         <nav>
+           <ul class="ul1">
+               <li><a href="index.html">Главная</a></li>
+               <li class="webtech"><a href="technologies.html">Web-технологии</a>
+                  <ul class="webtech">
+                     <li><a href="html5.html">HTML5</a></li>
+                     <li><a href="css3.html">CSS3</a></li>
+                     <li><a href="javaScript.html">JavaScript</a></li>
+                  </ul>
+               </li>
+               <li><a href="calculator.html">Калькулятор</a></li>
+               <li><a href="test.html">Тест</a></li>
+            </ul>
+         </nav>
+      </header>
+      
+      <div class="div1">
+         <form id="calculator" name="calculator">
+            <table class="calculator">
+               <tr>
+                  <td colspan="5"><input type="text" id ="screen" name="text" class="screen" value="0" /></td>
+               </tr>
+               <tr>
+                  <td><button type="button" id ="button7" name="button7" value="7">7</button></td>
+                  <td><button type="button" id ="button8" name="button8" value="8">8</button></td>
+                  <td><button type="button" id ="button9" name="button9" value="9">9</button></td>
+                  <td><button type="button" id ="buttonDivision" name="buttonDivision" value="/">/</button></td>
+                  <td><button type="button" id ="buttonC" name="buttonC">C</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" id ="button4" name="button4" value="4">4</button></td>
+                  <td><button type="button" id ="button5" name="button5" value="5">5</button></td>
+                  <td><button type="button" id ="button6" name="button6" value="6">6</button></td>
+                  <td><button type="button" id ="buttonMultiplication" name="buttonMultiplication" value="*">*</button></td>
+                  <td><button type="button" id ="buttonSign" name="buttonSign">&plusmn;</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" id ="button1" name="button1" value="1">1</button></td>
+                  <td><button type="button" id ="button2" name="button2" value="2">2</button></td>
+                  <td><button type="button" id ="button3" name="button3" value="3">3</button></td>
+                  <td><button type="button" id ="buttonSubtraction" name="buttonSubtraction" value="-">-</button></td>
+                  <td rowspan="2" class="equals"><button type="button" id ="buttonEquals" name="buttonEquals">=</button><br /> </td>
+               </tr>
+               <tr>
+                  <td colspan="2"><button type="button" id ="button0" name="button0" value="0">0</button> </td>
+                  <td><button type="button" id ="buttonDot" name="buttonDot" value=".">.</button></td>
+                  <td><button type="button" id ="buttonAddition" name="buttonAddition" value="+">+</button></td>
+               </tr>            
+            </table>
+         </form>
+      </div>
+      
+      <footer>
+         <address>
+            <a href="mailto:glycerine08@gmail.com">Пишите: glycerine08@gmail.com</a>
+         </address>
+         <p>© Глядковский В.Ю., 2017</p>
+      </footer>
+      
+      <script src="js/script.js"></script>
+   </body>
+</html>
